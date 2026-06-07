@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación XV Años - Maria José</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibe&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="invitation-container">
+        
+        <header>
+            <div class="floral-wreath">
+                <svg viewBox="0 0 500 500">
+                    <path d="M 250, 50 c 150, 0 200, 200 200, 200 c 0, 150 -200, 200 -200, 200 c -150, 0 -200, -200 -200, -200 c 0, -150 200, -200 200, -200 Z" fill="none" stroke="#D7C4F2" stroke-width="2" />
+                    <g transform="translate(250,250)">
+                        <g transform="rotate(30)"><path d="M -20,-100 A 30,10 0 1,1 20,-100" fill="none" stroke="#9370DB" stroke-width="1" /></g>
+                        <g transform="rotate(150)"><path d="M -20,-100 A 30,10 0 1,1 20,-100" fill="none" stroke="#9370DB" stroke-width="1" /></g>
+                        <g transform="rotate(270)"><path d="M -20,-100 A 30,10 0 1,1 20,-100" fill="none" stroke="#9370DB" stroke-width="1" /></g>
+                        <path d="M -50, -50 q 50, -50 100, 0 q 50, 50 -100, 0 q -50, -50 100, 0" fill="#B09FFD" />
+                        <path d="M -20, -50 v 100" fill="none" stroke="#FFFFFF" stroke-width="2" />
+                    </g>
+                </svg>
+            </div>
+            <h1 class="quinceanera-name">Maria José</h1>
+            <h2 class="title">MIS XV AÑOS</h2>
+        </header>
+
+        <section class="music-section">
+            <p>DALE CLICK PARA ESCUCHAR MI CANCIÓN</p>
+            <button id="play-button" class="music-control-button">
+                <svg viewBox="0 0 512 512">
+                    <path d="M112 111v290c0 17 19 28 35 19l242-145c16-9 16-31 0-40L147 92c-16-9-35 2-35 19z" fill="#FFFFFF"/>
+                </svg>
+            </button>
+            <audio id="quince-song" src="tu-cancion.mp3"></audio>
+        </section>
+
+        <section class="introduction-section">
+            <div class="shoes-image">
+                <svg viewBox="0 0 500 500">
+                    <path d="M 150, 400 L 250, 100 L 350, 400 Z" fill="#D7C4F2" />
+                    <path d="M 200, 350 q 50, -50 100, 0 q 50, 50 -100, 0 q -50, -50 100, 0" fill="#B09FFD" />
+                    <circle cx="250" cy="350" r="10" fill="#FFFFFF" />
+                </svg>
+            </div>
+            <p class="personal-message">
+                DESPUÉS DE TANTOS SUEÑOS E ILUSIONES, POR FIN HA LLEGADO EL DÍA QUE TANTO HE ESPERADO... MIS XV AÑOS, Y ME ENCANTARÍA COMPARTIR ESTE MOMENTO TAN ESPECIAL CONTIGO.
+            </p>
+        </section>
+
+        <section class="date-section">
+            <h3>AGENDA LA FECHA</h3>
+            <div class="calendar">
+                <div class="calendar-header">
+                    <span>L</span><span>M</span><span>M</span><span>J</span><span>V</span><span>S</span><span>D</span>
+                </div>
+                <div class="calendar-days">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+                    <span class="highlight">06</span>
+                    <span>7</span><span>8</span><span>9</span><span>10</span><span>11</span><span>12</span>
+                    <span class="heart-highlight">13</span>
+                    <span>14</span><span>15</span><span>16</span><span>17</span><span>18</span><span>19</span>
+                    <span>20</span><span>21</span><span>22</span><span>23</span><span>24</span><span>25</span>
+                    <span>26</span><span>27</span><span>28</span><span>29</span><span>30</span>
+                </div>
+            </div>
+            <div class="date-details">
+                <span>SÁBADO</span>
+                <span class="number">06</span>
+                <span>SEPTIEMBRE</span>
+            </div>
+            <div class="countdown-section">
+                <h4>Solo Falta</h4>
+                <div id="countdown" class="countdown-timer">
+                    <span id="days">47</span>DÍAS
+                    <span id="hours">05</span>HORAS
+                    <span id="minutes">02</span>MINUTOS
+                    <span id="seconds">25</span>SEGUNDOS
+                </div>
+            </div>
+        </section>
+
+        <section class="family-section">
+            <p>
+                MI CORAZÓN SE LLENA DE GOZO AL SABER QUE DIOS ME HA PERMITIDO LLEGAR A ESTE DÍA TAN ESPECIAL. ACOMPÁÑAME A DARLE GRACIAS.
+            </p>
+            <div class="family-list">
+                <div>
+                    <span class="family-label">ACOMPAÑADA SIEMPRE POR EL AMOR DE MIS PADRES:</span>
+                    <p>Camilo Pérez y Silvia Hernández</p>
+                </div>
+                <div>
+                    <span class="family-label">Y GUIADA CON CARIÑO POR MIS PADRINOS:</span>
+                    <p>Emilio Diaz y Carolina Méndez</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="locations-section">
+            <h3>UBICACIONES</h3>
+            
+            <div class="location-item">
+                <div class="location-icon">
+                    <svg viewBox="0 0 512 512">
+                        <path d="M256 16c17.6 0 32 14.3 32 32s-14.3 32-32 32-32-14.3-32-32 14.3-32 32-32zm144.1 113.8C463.1 169.5 500 240 500 320c0 106-86 192-192 192s-192-86-192-192c0-80 36.9-150.5 99.9-190.2 12.3-7.8 28.5-4.1 36.3 8.2 7.8 12.3 4.1 28.5-8.2 36.3C210.7 207.2 188 261.3 188 320c0 70.7 57.3 128 128 128s128-57.3 128-128c0-58.7-22.7-112.8-55.9-145.7-12.3-7.8-16-24-8.2-36.3 7.8-12.3 24-16 36.3-8.2zM256 160c-35.3 0-64 28.7-64 64s28.7 64 64 64 64-28.7 64-64-28.7-64-64-64zm0 192c-17.6 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32z"/>
+                    </svg>
+                </div>
+                <h4>Misa</h4>
+                <a href="https://maps.google.com/?q=Santuario+de+San+Benito" class="location-button">VER UBICACIÓN</a>
+                <p>SANTUARIO DE SAN BENITO</p>
+                <p>4:00 P.M</p>
+            </div>
+
+            <div class="location-item">
+                <div class="location-icon">
+                    <svg viewBox="0 0 512 512">
+                        <path d="M480 31.8c-17.6 0-32 14.3-32 32v128c0 53-43 96-96 96s-96-43-96-96v-128c0-17.6-14.3-32-32-32s-32 14.3-32 32v128c0 88.4 71.6 160 160 160s160-71.6 160-160v-128c0-17.7-14.4-32-32-32zM256 31.8c-17.6 0-32 14.3-32 32v128c0 88.4-71.6 160-160 160S-96 248.2-96 159.8v-128c0-17.7 14.4-32 32-32s32 14.3 32 32v128c0 53 43 96 96 96s96-43 96-96v-128c0-17.6-14.3-32-32-32z"/>
+                    </svg>
+                </div>
+                <h4>Recepción</h4>
+                <a href="https://maps.google.com/?q=D' Arellanos+Banquet" class="location-button">VER UBICACIÓN</a>
+                <p>D' ARELLANOS BANQUET</p>
+                <p>7:00 P.M</p>
+            </div>
+        </section>
+
+        <section class="quotes-section">
+            <p>“ESTÁ VESTIDA DE FUERZA Y DIGNIDAD, Y SE RÍE SIN TEMOR AL FUTURO.”</p>
+            <p class="reference">PROVERBIOS 31:25</p>
+        </section>
+
+        <section class="gifts-section">
+            <h3>Opción de Regalo</h3>
+            <p>MI MEJOR REGALO ES COMPARTIR CONTIGO ESTE GRAN DÍA, SI DESEAS OBSEQUIARME ALGO, PUEDO SUGERIRTE LA SIGUIENTE OPCIÓN:</p>
+            <div class="gift-icon">
+                <svg viewBox="0 0 512 512">
+                    <path d="M32 32v448h448V32H32zm400 384H80V80h352v336z"/>
+                    <path d="M160 160c-17.6 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32zm192 0c-17.6 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32zm-96 160c-53 0-96 43-96 96s43 96 96 96 96-43 96-96-43-96-96-96z" fill="#FFFFFF"/>
+                </svg>
+            </div>
+            <p class="gift-message">¡Lluvia de sobres!</p>
+        </section>
+
+        <section class="dress-code-section">
+            <h3>CÓDIGO DE VESTIMENTA</h3>
+            <p>Elegante</p>
+            <div class="dress-code-icons">
+                <div class="icon-group">
+                    <svg viewBox="0 0 512 512">
+                        <path d="M256 16c-35.3 0-64 28.7-64 64s28.7 64 64 64 64-28.7 64-64-28.7-64-64-64zm0 192c-53 0-96 43-96 96s43 96 96 96 96-43 96-96-43-96-96-96zm0 192c-17.6 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32z"/>
+                    </svg>
+                    <span>ELLAS</span>
+                </div>
+                <div class="icon-group">
+                    <svg viewBox="0 0 512 512">
+                        <path d="M256 16C160 16 80 96 80 192v224c0 17.6 14.4 32 32 32s32-14.4 32-32V192c0-53 43-96 96-96s96 43 96 96v224c0 17.6 14.4 32 32 32s32-14.4 32-32V192C432 96 352 16 256 16zm0 288c-17.6 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32z"/>
+                    </svg>
+                    <span>ELLOS</span>
+                </div>
+            </div>
+            <p class="reserve-message">
+                SE RESERVA EL COLOR LILA Y MORADO EN TODOS SUS TONOS SOLO PARA LA QUINCEAÑERA
+            </p>
+            <div class="color-swatches">
+                <div class="swatch color1"></div>
+                <div class="swatch color2"></div>
+                <div class="swatch color3"></div>
+            </div>
+        </section>
+
+        <footer>
+            <button class="confirm-button">CONFIRMAR ASISTENCIA</button>
+            <p>
+                LOS MEJORES RECUERDOS SE CREAN CON PERSONAS ESPECIALES COMO USTEDES. SERÍA UN PLACER QUE NOS ACOMPAÑARAS.
+            </p>
+            <p>TE ESPERAMOS ...</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

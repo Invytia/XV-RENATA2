@@ -1,0 +1,241 @@
+/* Configuración global de estilos */
+body {
+    background-color: #F8F4FF; /* Lavanda muy claro para el fondo */
+    font-family: 'Playfair Display', serif; /* Tipografía serif para el cuerpo */
+    color: #333333;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Contenedor principal de la invitación */
+.invitation-container {
+    background-color: #FFFFFF;
+    width: 375px; /* Ancho de un dispositivo móvil */
+    border: 1px solid #D7C4F2;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Tipografía caligráfica para el nombre */
+.quinceanera-name {
+    font-family: 'Great Vibes', cursive;
+    color: #9370DB; /* Morado medio */
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+/* Estilos de secciones */
+header, .music-section, .introduction-section, .date-section, .family-section, .locations-section, .quotes-section, .gifts-section, .dress-code-section, footer {
+    margin-bottom: 30px;
+}
+
+header {
+    background-color: #F8F4FF;
+    padding: 20px 0;
+}
+
+.floral-wreath {
+    width: 200px;
+    margin: 0 auto;
+}
+
+h2, h3, h4 {
+    color: #9370DB;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0 0 10px 0;
+}
+
+/* Botones y controles de música */
+.music-control-button {
+    background-color: #B09FFD; /* Color del lazo */
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.music-control-button svg {
+    width: 30px;
+    height: 30px;
+}
+
+/* Zapatos y otras imágenes SVG */
+.shoes-image svg, .gift-icon svg, .dress-code-icons svg {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+/* Calendario */
+.calendar {
+    margin: 0 auto;
+    width: 250px;
+    border: 1px solid #D7C4F2;
+    padding: 10px;
+}
+
+.calendar-header, .calendar-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.calendar-header span, .calendar-days span {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendar-days .highlight {
+    background-color: #9370DB;
+    color: #FFFFFF;
+    border-radius: 50%;
+}
+
+.calendar-days .heart-highlight {
+    color: #FF0000;
+}
+
+.date-details {
+    margin: 20px 0;
+    color: #9370DB;
+}
+
+.date-details span {
+    font-size: 16px;
+    display: block;
+}
+
+.date-details .number {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Cuenta Regresiva */
+.countdown-section h4 {
+    margin: 0 0 10px 0;
+    font-family: 'Great Vibes', cursive;
+}
+
+.countdown-timer {
+    background-color: #B09FFD;
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+
+.countdown-timer span {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
+
+/* Familia y Ubicaciones */
+.family-label {
+    color: #9370DB;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.locations-section .location-item {
+    margin-bottom: 40px;
+}
+
+.location-icon svg {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.location-button {
+    background-color: #D7C4F2;
+    color: #333333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+/* Citas */
+.quotes-section .reference {
+    color: #9370DB;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/* Regalos y Código de Vestimenta */
+.gifts-section .gift-message {
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+}
+
+.dress-code-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+.dress-code-icons .icon-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reserve-message {
+    color: #FF0000;
+}
+
+.color-swatches {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.swatch {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.color1 { background-color: #9370DB; }
+.color2 { background-color: #B09FFD; }
+.color3 { background-color: #D7C4F2; }
+
+/* Botones y Pie de página */
+.confirm-button {
+    background-color: #FFFFFF;
+    color: #333333;
+    border: 1px solid #D7C4F2;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #F8F4FF;
+    padding: 20px 0;
+}

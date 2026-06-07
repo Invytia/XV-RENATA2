@@ -1,7 +1,7 @@
 // Funcionalidad de Cuenta Regresiva
 function updateCountdown() {
-    // ESTABLECE LA FECHA OBJETIVO AQUÍ (Sábado 6 de Septiembre)
-    const quinceDate = new Date('September 6, 2023 16:00:00').getTime();
+    // ESTABLECE LA FECHA OBJETIVO AQUÍ (Viernes 7 de Agosto)
+    const quinceDate = new Date('August 7, 2026 16:00:00').getTime();
     const now = new Date().getTime();
     const gap = quinceDate - now;
 
